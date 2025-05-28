@@ -33,7 +33,7 @@ def main():
     style.theme_use("clam")
     style.configure("TLabel", font=("Helvetica", 12))
     style.configure("TRadiobutton", font=("Helvetica", 11))
-    style.configure("Accent.TButton", font=("Helvetica", 12, "bold"), background="#000000", foreground="white") # Cor verde
+    style.configure("Accent.TButton", font=("Helvetica", 12, "bold"), background="#000000", foreground="white")
 
     
     
