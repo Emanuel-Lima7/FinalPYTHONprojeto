@@ -134,7 +134,7 @@ def finalizar_pedido():
         return
 
     janela_resumo = tk.Toplevel()
-    janela_resumo.title("✅ Pedido Confirmado!")
+    janela_resumo.title("✅ Pedido Confirmado!!")
     janela_resumo.geometry("450x450")
     janela_resumo.resizable(False, False)
 
