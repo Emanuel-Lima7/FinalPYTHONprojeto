@@ -91,7 +91,7 @@ def criar_secao_endereco(parent_window):
     global endereco_var
     endereco_var = tk.StringVar() 
 
-    endereco_frame = ttk.LabelFrame(parent_window, text="Endereço de Entrega", padding=(15, 10))
+    endereco_frame = ttk.LabelFrame(parent_window, text="Endereço de Entrega:", padding=(15, 10))
 
     ttk.Label(endereco_frame, text="Informe o seu endereço:").pack(anchor="w", pady=5)
     endereco_entry = ttk.Entry(endereco_frame, textvariable=endereco_var, width=60)
@@ -134,7 +134,7 @@ def finalizar_pedido():
         return
 
     janela_resumo = tk.Toplevel()
-    janela_resumo.title("✅ Pedido Confirmado!!")
+    janela_resumo.title("✅ Pedido Confirmado!")
     janela_resumo.geometry("450x450")
     janela_resumo.resizable(False, False)
 
